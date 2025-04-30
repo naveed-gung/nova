@@ -92,27 +92,9 @@ Nova is a modern, multilingual AI voice assistant that brings natural conversati
 - Natural language processing
 - Quick response times
 
-## 📝 License
 
-MIT License © [Your Name]
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 🙏 Acknowledgments
-
-- 🎨 Design inspired by modern UI/UX principles
-- 🤖 Powered by Google's Gemini API
-- 🌐 Built with React and TypeScript
-- 💜 Special thanks to all contributors!
-
----
-
-<div align="center">
-  
 ### 🌟 Made with Love and AI 🤖
 
-[Live Demo](https://n0v0.netlify.app/) |
+[Live Demo](https://n0v0.netlify.app/) 
 
 </div>
