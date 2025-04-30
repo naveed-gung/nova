@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6BBFFF"/>
+      <stop offset="100%" stop-color="#D3E4FD"/>
+    </linearGradient>
+  </defs>
+  
+  <circle cx="16" cy="16" r="14" fill="url(#gradient)">
+    <animate attributeName="r" 
+             values="14;13;14" 
+             dur="2s" 
+             repeatCount="indefinite"/>
+  </circle>
+</svg> 
