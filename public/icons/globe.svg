@@ -1,0 +1,5 @@
+<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+  <ellipse cx="10" cy="10" rx="7" ry="5" fill="none" stroke="#E74C3C" stroke-width="1.5"/>
+  <path d="M10 5 Q 8 10 10 15 M10 5 Q 12 10 10 15" stroke="#E74C3C" stroke-width="1.5" fill="none"/>
+  <circle cx="10" cy="10" r="2" fill="#E74C3C"/>
+</svg>
