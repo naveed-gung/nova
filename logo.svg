@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#9b87f5"/>
+      <stop offset="50%" stop-color="#B794F6"/>
+      <stop offset="100%" stop-color="#D6BCFA"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="url(#logoGradient)" filter="url(#glow)">
+    <animate attributeName="r" 
+             values="90;88;90" 
+             dur="3s" 
+             repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Sound wave icon -->
+  <g transform="translate(100, 100)">
+    <!-- Center bar -->
+    <rect x="-4" y="-30" width="8" height="60" fill="white" rx="4">
+      <animate attributeName="height" 
+               values="60;40;60" 
+               dur="1.5s" 
+               repeatCount="indefinite"/>
+      <animate attributeName="y" 
+               values="-30;-20;-30" 
+               dur="1.5s" 
+               repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Left bar 1 -->
+    <rect x="-20" y="-20" width="8" height="40" fill="white" rx="4">
+      <animate attributeName="height" 
+               values="40;50;40" 
+               dur="1.5s" 
+               begin="0.3s"
+               repeatCount="indefinite"/>
+      <animate attributeName="y" 
+               values="-20;-25;-20" 
+               dur="1.5s" 
+               begin="0.3s"
+               repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Right bar 1 -->
+    <rect x="12" y="-20" width="8" height="40" fill="white" rx="4">
+      <animate attributeName="height" 
+               values="40;50;40" 
+               dur="1.5s" 
+               begin="0.3s"
+               repeatCount="indefinite"/>
+      <animate attributeName="y" 
+               values="-20;-25;-20" 
+               dur="1.5s" 
+               begin="0.3s"
+               repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Left bar 2 -->
+    <rect x="-36" y="-15" width="8" height="30" fill="white" rx="4">
+      <animate attributeName="height" 
+               values="30;35;30" 
+               dur="1.5s" 
+               begin="0.6s"
+               repeatCount="indefinite"/>
+      <animate attributeName="y" 
+               values="-15;-17.5;-15" 
+               dur="1.5s" 
+               begin="0.6s"
+               repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Right bar 2 -->
+    <rect x="28" y="-15" width="8" height="30" fill="white" rx="4">
+      <animate attributeName="height" 
+               values="30;35;30" 
+               dur="1.5s" 
+               begin="0.6s"
+               repeatCount="indefinite"/>
+      <animate attributeName="y" 
+               values="-15;-17.5;-15" 
+               dur="1.5s" 
+               begin="0.6s"
+               repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Nova text -->
+  <text x="100" y="175" font-family="Arial, sans-serif" font-size="24" font-weight="bold" 
+        fill="white" text-anchor="middle">NOVA</text>
+</svg>
