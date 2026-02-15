@@ -181,10 +181,6 @@ Say **"Hey Nova"** or **"Nova"** followed by your question to activate hands-fre
 
 ---
 
-## <img src="public/icons/heart.svg" width="20" height="20" alt="heart"> Credits
-
-Built with care. Powered by AI.
-
 <div align="center">
 
 [Live Demo](https://n0v0.netlify.app/)
