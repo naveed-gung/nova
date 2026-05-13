@@ -1,0 +1,30 @@
+name: Bug report
+description: Report a reproducible problem in Nova
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and the expected result.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Share the exact steps to reproduce the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include browser, OS, runtime version, and relevant voice or AI configuration.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Add logs, screenshots, or related details.
